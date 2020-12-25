@@ -33,6 +33,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# bulma-rails gem file
+gem 'bulma-rails', '~> 0.9.1'
+# simple-form gem file
+gem 'simple_form', '~> 5.0', '>= 5.0.3'
+# gravatar img tag gem file 
+gem 'gravatar_image_tag', '~> 1.2'
+# devise
+gem 'devise', '~> 4.7', '>= 4.7.3'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -48,6 +57,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # better error gem file
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  # guard gem file
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  # guard livereload gem file
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do
